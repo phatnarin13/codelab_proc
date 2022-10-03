@@ -2,11 +2,15 @@
 
 {% block content %}
 
+
 <div class="container">
     <h2>โปรดส่งใครมาช่วยฉันที</h2>
-    <h3>ส่งเรื่องราวของคุณมา แล้วฉันจะติดต่อกลับไป</h3>
-    <input type="text" class="form-control" placeholder="ข้อความที่จะฝากไว้ให้เทอ"><br>
-    <input type="text" class="form-control" placeholder="บอกชื่อเทอกับฉัน"><br>
-    <button type="button" class='btn btn-primary' id="btnSendMsg">ส่ง</button>
-</div>
+    <p class="text-primary">ส่งเรื่องราวของคุณมา แล้วฉันจะติดต่อกลับไป</p>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" placeholder="ข้อความที่จะฝากไว้ให้เทอ">
+        <input type="text" class="form-control" placeholder="บอกชื่อเทอกับฉัน"><br>
+        <button type="button" class='btn btn-primary' id="btnSendMsg">ส่ง</button>
+     </div>
+ </div>
+
 {% endblock %}

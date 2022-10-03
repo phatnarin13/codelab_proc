@@ -34,7 +34,6 @@ $(document).ready(function () {
 });
 
 
-
 function AppendData(val){
   $("#listUser").append('<a href="#" class="list-group-item list-group-item-action"> Random : '+ val +'</a>');
 }
